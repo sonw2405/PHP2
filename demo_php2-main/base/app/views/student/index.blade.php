@@ -38,4 +38,11 @@
     </tbody>
 
 </table>
+<script>
+    function confirmDelete(url) {
+        if (confirm('Bạn có chắc chắn muốn xóa sinh viên này?')) {
+            window.location.href = url
+        }
+    }
+  </script>
 @endsection
